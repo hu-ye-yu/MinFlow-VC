@@ -1,0 +1,406 @@
+<html>
+    <head>
+        <title>MinFlow-SVC - Audio Samples</title>
+        <link href="XXXX" rel="stylesheet">
+        <link href="XXXX" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container {
+                margin-top: 20px;
+                /* Add space between div blocks */
+            }
+
+            .section {
+                margin-bottom: 20px;
+                /* Adds space after section */
+            }
+        </style>
+    </head>
+    <body>
+        <div class='section'>
+            <h1>VOICECONVERSIONVIASHAREDSPEAKERSPACEANDMIN-POOLING
+                ADVERSARIALLYENHANCEDFLOWMATCHING</h1>
+            <h1>Abstract</h1>
+            <p> Voice conversion (VC) is confronted with the trade-off between
+                speaker features disentanglement and speech quality. To address
+                this challenge, we introduce MinFlow-VC, a voice conversion (VC)
+                framework based on conditional flow matching, which is further
+                enhanced via min-pooling adversarial training to improve the con
+               version system. We adopt a KNN-based approach to directly convert
+                the source speaker features into a shared speaker space that effec
+               tively removes the source speaker timbre information, which serves
+                as the content features. To further improve the generation quality,
+                we propose a min-pooling adversarial training method that not only
+                automatically detects and corrects inconsistencies caused by KNN
+                but also further improves the generation quality of conditional flow
+                matching. Experimental results demonstrate that our method outper
+               formsotherstrongVCbaselinesintermsofnaturalness, intelligibility
+                and timbre similarity.</p>
+        </div>
+
+        <div class="container" id="abstractdiv" style="max-width: 100%; overflow-x: auto; overflow-y: hidden;">
+            <h2>Comparative experiment</h2>
+            <table class="table table-responsive">
+                <thead>
+                    <tr class="text-center">
+                        <td>source audio</td>
+                        <td>reference audio</td>
+                        <td>YourTTS</td>
+                        <td>DiffVC-10</td>
+                        <td>DiffVC-30</td>
+                        <td>DDDM-VC-10</td>
+                        <td>DDDM-VC-30</td>
+                        <td>MinFlow-VC-1</td>
+                        <td>MinFlow-VC-5</td>
+                        <td>MinFlow-VC-10</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="pure-table-odd">
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-1.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-2.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-4.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-5.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-6.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-7.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-8.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-9.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-10.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/1-11.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr class="pure-table-odd">
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-1.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-2.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-4.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-5.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-6.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-7.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-8.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-9.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-10.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/2-11.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr class="pure-table-odd">
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-1.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-2.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-4.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-5.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-6.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-7.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-8.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-9.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-10.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td class="text-center">
+                            <audio controls="" style="width: 285px;">
+                                <source src="./data/Comparative/3-11.wav" type="audio/mpeg">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container" id="abstractdiv" style="max-width: 100%; overflow-x: auto; overflow-y: hidden;">
+            <h2>Ablation study
+        </h3>
+        <table class="table table-responsive">
+            <thead>
+                <tr class="text-center">
+                    <td>source audio</td>
+                    <td>reference audio</td>
+                    <td>MinFlow-VC-10</td>
+                    <td>w/o L(min-pooling)</td>
+                    <td>w/o L(adv)</td>
+                    <td>w/o min-pooling in L(adv)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pure-table-odd">
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-1.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-2.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-3.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-4.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-5.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/1-6.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-1.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-2.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-3.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-4.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-5.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/2-6.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-1.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-2.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-3.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-4.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-5.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/3-6.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr class="pure-table-odd">
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-1.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-2.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-3.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-4.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-5.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td class="text-center">
+                        <audio controls="" style="width: 285px;">
+                            <source src="./data/ablation/4-6.wav" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div><hr>
+
+        <script>
+            (function() {
+                function c() {
+                    var b = a.contentDocument || a.contentWindow.document;
+                    if (b) {
+                        var d = b.createElement('script');
+                        d.innerHTML = "window.__CF$cv$params={r:'98099d352d891500',t:'MTc1ODEyMjcwNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                        b.getElementsByTagName('head')[0].appendChild(d)
+                    }
+                }
+                if (document.body) {
+                    var a = document.createElement('iframe');
+                    a.height = 1;
+                    a.width = 1;
+                    a.style.position = 'absolute';
+                    a.style.top = 0;
+                    a.style.left = 0;
+                    a.style.border = 'none';
+                    a.style.visibility = 'hidden';
+                    document.body.appendChild(a);
+                    if ('loading' !== document.readyState)
+                        c();
+                    else if (window.addEventListener)
+                        document.addEventListener('DOMContentLoaded', c);
+                    else {
+                        var e = document.onreadystatechange || function() {}
+                        ;
+                        document.onreadystatechange = function(b) {
+                            e(b);
+                            'loading' !== document.readyState && (document.onreadystatechange = e,
+                            c())
+                        }
+                    }
+                }
+            }
+            )();
+        </script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a91e086813be4c85866426ceaf974bfc","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    </body></html>
